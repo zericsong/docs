@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+一、斜体和粗体
+*这是斜体*
 
-You can use the [editor on GitHub](https://github.com/zericsong/docs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+_这也是斜体_
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+***这是加粗斜体***
 
-### Markdown
+~~删除线~~
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+二、分级标题
 
-```markdown
-Syntax highlighted code block
+这是一级标题
+=============================
 
-# Header 1
-## Header 2
-### Header 3
+这是二级标题
+-----------------------------
 
-- Bulleted
-- List
+# 一级标题
 
-1. Numbered
-2. List
+## 二级标题
 
-**Bold** and _Italic_ and `Code` text
+### 三级标题
 
-[Link](url) and ![Image](src)
-```
+#### 四级标题
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zericsong/docs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
