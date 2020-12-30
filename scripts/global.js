@@ -1,10 +1,10 @@
 function addLoadEvent(func) {
-    let oldonload = window.onload;
+    let oldOnload = window.onload;
     if (typeof window.onload != 'function') {
         window.onload = func;
     } else {
         window.onload = function(){
-            oldonload();
+            oldOnload();
             func();
         }
     }
@@ -14,15 +14,15 @@ function insertAfter(newElement,targetElement) {
     let parent = targetElement.parentNode;
     if (parent.lastChild == targetElement) {
         parent.appendChild(newElement);
-    } eles {
-        parent.insertBefor(newElement,targetElement.nextSibling)
+    } else {
+        parent.insertBefore(newElement,targetElement.nextSibling)
     }
 }
 
 function addClass(element,value) {
     if(!element.className) {
         element.className = value;
-    } eles {
+    } else {
         newClassName = element.className;
         newClassName += " ";
         newClassName += value;
